@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Settings" => "ده‌ستكاری",
 "Error" => "هه‌ڵه",
 "Password" => "وشەی تێپەربو",
@@ -18,8 +19,8 @@
 "Database name" => "ناوی داتابه‌یس",
 "Database host" => "هۆستی داتابه‌یس",
 "Finish setup" => "كۆتایی هات ده‌ستكاریه‌كان",
-"web services under your control" => "ڕاژه‌ی وێب له‌ژێر چاودێریت دایه",
 "Log out" => "چوونەدەرەوە",
 "prev" => "پێشتر",
 "next" => "دواتر"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

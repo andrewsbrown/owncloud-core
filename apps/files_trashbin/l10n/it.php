@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Couldn't delete %s permanently" => "Impossibile eliminare %s definitivamente",
 "Couldn't restore %s" => "Impossibile ripristinare %s",
 "perform restore operation" => "esegui operazione di ripristino",
@@ -11,8 +12,10 @@
 "{count} folders" => "{count} cartelle",
 "1 file" => "1 file",
 "{count} files" => "{count} file",
+"restored" => "ripristinati",
 "Nothing in here. Your trash bin is empty!" => "Qui non c'è niente. Il tuo cestino è vuoto.",
 "Restore" => "Ripristina",
 "Delete" => "Elimina",
 "Deleted Files" => "File eliminati"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

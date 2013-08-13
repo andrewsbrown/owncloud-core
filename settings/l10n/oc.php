@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Unable to load list from App Store" => "Pas possible de cargar la tièra dempuèi App Store",
 "Authentication error" => "Error d'autentificacion",
 "Group already exists" => "Lo grop existís ja",
@@ -23,6 +24,12 @@
 "Delete" => "Escafa",
 "__language_name__" => "__language_name__",
 "Security Warning" => "Avertiment de securitat",
+"Cron" => "Cron",
+"Execute one task with each page loaded" => "Executa un prètfach amb cada pagina cargada",
+"Sharing" => "Al partejar",
+"Enable Share API" => "Activa API partejada",
+"Log" => "Jornal",
+"More" => "Mai d'aquò",
 "Add your App" => "Ajusta ton App",
 "Select an App" => "Selecciona una applicacion",
 "See application page at apps.owncloud.com" => "Agacha la pagina d'applications en cò de apps.owncloud.com",
@@ -39,5 +46,7 @@
 "Language" => "Lenga",
 "Help translate" => "Ajuda a la revirada",
 "Create" => "Crea",
-"Other" => "Autres"
+"Other" => "Autres",
+"Username" => "Non d'usancièr"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n > 1);";

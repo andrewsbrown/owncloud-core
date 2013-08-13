@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Unable to load list from App Store" => "Неможам да вчитам листа од App Store",
 "Authentication error" => "Грешка во автентикација",
 "Group already exists" => "Групата веќе постои",
@@ -9,7 +10,7 @@
 "Unable to delete group" => "Неможе да избришам група",
 "Unable to delete user" => "Неможам да избришам корисник",
 "Language changed" => "Јазикот е сменет",
-"Invalid request" => "неправилно барање",
+"Invalid request" => "Неправилно барање",
 "Admins can't remove themself from the admin group" => "Администраторите неможе да се избришат себеси од админ групата",
 "Unable to add user to group %s" => "Неможе да додадам корисник во група %s",
 "Unable to remove user from group %s" => "Неможе да избришам корисник од група %s",
@@ -23,7 +24,8 @@
 "Delete" => "Избриши",
 "__language_name__" => "__language_name__",
 "Security Warning" => "Безбедносно предупредување",
-"Your data directory and your files are probably accessible from the internet. The .htaccess file that ownCloud provides is not working. We strongly suggest that you configure your webserver in a way that the data directory is no longer accessible or you move the data directory outside the webserver document root." => "Вашата папка со податоци и датотеките е најверојатно достапна од интернет. .htaccess датотеката што ја овозможува ownCloud не фунционира. Силно препорачуваме да го исконфигурирате вашиот сервер за вашата папка со податоци не е достапна преку интернетт или преместете ја надвор од коренот на веб серверот.",
+"Log" => "Записник",
+"Log level" => "Ниво на логирање",
 "More" => "Повеќе",
 "Less" => "Помалку",
 "Version" => "Верзија",
@@ -52,7 +54,8 @@
 "Language" => "Јазик",
 "Help translate" => "Помогни во преводот",
 "WebDAV" => "WebDAV",
-"Use this address to connect to your ownCloud in your file manager" => "Користете ја оваа адреса да ",
 "Create" => "Создај",
-"Other" => "Останато"
+"Other" => "Останато",
+"Username" => "Корисничко име"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;";

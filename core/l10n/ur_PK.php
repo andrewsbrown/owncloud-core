@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "No category to add?" => "شامل کرنے کے لیے کوئی زمرہ نہیں؟",
 "No categories selected for deletion." => "ختم کرنے کے لیے کسی زمرہ جات کا انتخاب نہیں کیا گیا۔",
 "January" => "جنوری",
@@ -16,8 +17,8 @@
 "Settings" => "سیٹینگز",
 "Choose" => "منتخب کریں",
 "Cancel" => "منسوخ کریں",
-"No" => "نہیں",
 "Yes" => "ہاں",
+"No" => "نہیں",
 "Ok" => "اوکے",
 "Error" => "ایرر",
 "Error while sharing" => "شئیرنگ کے دوران ایرر",
@@ -68,7 +69,6 @@
 "Database tablespace" => "ڈیٹابیس ٹیبل سپیس",
 "Database host" => "ڈیٹابیس ہوسٹ",
 "Finish setup" => "سیٹ اپ ختم کریں",
-"web services under your control" => "آپ کے اختیار میں ویب سروسیز",
 "Log out" => "لاگ آؤٹ",
 "Lost your password?" => "کیا آپ پاسورڈ بھول گئے ہیں؟",
 "remember" => "یاد رکھیں",
@@ -76,3 +76,4 @@
 "prev" => "پچھلا",
 "next" => "اگلا"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

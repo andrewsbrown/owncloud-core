@@ -1,6 +1,7 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "No category to add?" => "Nemate kategorija koje možete dodati?",
-"No categories selected for deletion." => "Nema odabranih kategorija za brisanje.",
+"No categories selected for deletion." => "Niti jedna kategorija nije odabrana za brisanje.",
 "Sunday" => "nedelja",
 "Monday" => "ponedeljak",
 "Tuesday" => "utorak",
@@ -30,10 +31,10 @@
 "years ago" => "godina",
 "Choose" => "Izaberi",
 "Cancel" => "Odustani",
-"No" => "Ne",
 "Yes" => "Da",
+"No" => "Ne",
 "Ok" => "U redu",
-"Error" => "Pogreška",
+"Error" => "Greška",
 "Share" => "Podijeli",
 "Error while sharing" => "Greška prilikom djeljenja",
 "Error while unsharing" => "Greška prilikom isključivanja djeljenja",
@@ -76,7 +77,7 @@
 "Edit categories" => "Uredi kategorije",
 "Add" => "Dodaj",
 "Create an <strong>admin account</strong>" => "Stvori <strong>administratorski račun</strong>",
-"Advanced" => "Dodatno",
+"Advanced" => "Napredno",
 "Data folder" => "Mapa baze podataka",
 "Configure the database" => "Konfiguriraj bazu podataka",
 "will be used" => "će se koristiti",
@@ -86,7 +87,6 @@
 "Database tablespace" => "Database tablespace",
 "Database host" => "Poslužitelj baze podataka",
 "Finish setup" => "Završi postavljanje",
-"web services under your control" => "web usluge pod vašom kontrolom",
 "Log out" => "Odjava",
 "Lost your password?" => "Izgubili ste lozinku?",
 "remember" => "zapamtiti",
@@ -94,3 +94,4 @@
 "prev" => "prethodan",
 "next" => "sljedeći"
 );
+$PLURAL_FORMS = "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;";

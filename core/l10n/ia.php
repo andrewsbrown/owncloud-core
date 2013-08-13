@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Sunday" => "Dominica",
 "Monday" => "Lunedi",
 "Tuesday" => "Martedi",
@@ -20,8 +21,10 @@
 "December" => "Decembre",
 "Settings" => "Configurationes",
 "Cancel" => "Cancellar",
+"Error" => "Error",
 "Share" => "Compartir",
 "Password" => "Contrasigno",
+"Send" => "Invia",
 "ownCloud password reset" => "Reinitialisation del contrasigno de ownCLoud",
 "Username" => "Nomine de usator",
 "Request reset" => "Requestar reinitialisation",
@@ -47,7 +50,6 @@
 "Database password" => "Contrasigno de base de datos",
 "Database name" => "Nomine de base de datos",
 "Database host" => "Hospite de base de datos",
-"web services under your control" => "servicios web sub tu controlo",
 "Log out" => "Clauder le session",
 "Lost your password?" => "Tu perdeva le contrasigno?",
 "remember" => "memora",
@@ -55,3 +57,4 @@
 "prev" => "prev",
 "next" => "prox"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

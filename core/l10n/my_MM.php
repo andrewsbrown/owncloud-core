@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "No category to add?" => "ထည့်ရန်ခေါင်းစဉ်မရှိဘူးလား",
 "No categories selected for deletion." => "ဖျက်ရန်အတွက်ခေါင်းစဉ်မရွေးထားပါ",
 "January" => "ဇန်နဝါရီ",
@@ -23,8 +24,8 @@
 "years ago" => "နှစ် အရင်က",
 "Choose" => "ရွေးချယ်",
 "Cancel" => "ပယ်ဖျက်မည်",
-"No" => "မဟုတ်ဘူး",
 "Yes" => "ဟုတ်",
+"No" => "မဟုတ်ဘူး",
 "Ok" => "အိုကေ",
 "Password" => "စကားဝှက်",
 "Set expiration date" => "သက်တမ်းကုန်ဆုံးမည့်ရက်သတ်မှတ်မည်",
@@ -55,10 +56,10 @@
 "Database password" => "Database စကားဝှက်",
 "Database name" => "Database အမည်",
 "Finish setup" => "တပ်ဆင်ခြင်းပြီးပါပြီ။",
-"web services under your control" => "သင်၏ထိန်းချုပ်မှု့အောက်တွင်ရှိသော Web services",
 "Lost your password?" => "သင်၏စကားဝှက်ပျောက်သွားပြီလား။",
 "remember" => "မှတ်မိစေသည်",
 "Log in" => "ဝင်ရောက်ရန်",
 "prev" => "ယခင်",
 "next" => "နောက်သို့"
 );
+$PLURAL_FORMS = "nplurals=1; plural=0;";

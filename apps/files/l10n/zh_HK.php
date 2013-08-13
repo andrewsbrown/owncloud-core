@@ -1,7 +1,9 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Files" => "文件",
-"Delete" => "刪除",
 "Error" => "錯誤",
+"Share" => "分享",
+"Delete" => "刪除",
 "Name" => "名稱",
 "{count} folders" => "{}文件夾",
 "Upload" => "上傳",
@@ -9,3 +11,4 @@
 "Download" => "下載",
 "Unshare" => "取消分享"
 );
+$PLURAL_FORMS = "nplurals=1; plural=0;";

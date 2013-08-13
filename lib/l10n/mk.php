@@ -1,10 +1,11 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Help" => "Помош",
 "Personal" => "Лично",
-"Settings" => "Параметри",
+"Settings" => "Подесувања",
 "Users" => "Корисници",
-"Apps" => "Аппликации",
 "Admin" => "Админ",
+"web services under your control" => "веб сервиси под Ваша контрола",
 "ZIP download is turned off." => "Преземање во ZIP е исклучено",
 "Files need to be downloaded one by one." => "Датотеките треба да се симнат една по една.",
 "Back to Files" => "Назад кон датотеки",
@@ -27,8 +28,6 @@
 "%d months ago" => "пред %d месеци",
 "last year" => "минатата година",
 "years ago" => "пред години",
-"%s is available. Get <a href=\"%s\">more information</a>" => "%s е достапно. Земи <a href=\"%s\">повеќе информации</a>",
-"up to date" => "ажурно",
-"updates check is disabled" => "проверката за ажурирања е оневозможена",
 "Could not find category \"%s\"" => "Не можам да најдам категорија „%s“"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;";

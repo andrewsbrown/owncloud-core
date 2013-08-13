@@ -1,7 +1,7 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Could not move %s - File with this name already exists" => "%s nuk u spostua - Aty ekziston një skedar me të njëjtin emër",
 "Could not move %s" => "%s nuk u spostua",
-"Unable to rename file" => "Nuk është i mundur riemërtimi i skedarit",
 "No file was uploaded. Unknown error" => "Nuk u ngarkua asnjë skedar. Veprim i gabuar i panjohur",
 "There is no error, the file uploaded with success" => "Nuk pati veprime të gabuara, skedari u ngarkua me sukses",
 "The uploaded file exceeds the upload_max_filesize directive in php.ini: " => "Skedari i ngarkuar tejkalon udhëzimin upload_max_filesize tek php.ini:",
@@ -13,6 +13,13 @@
 "Not enough storage available" => "Nuk ka mbetur hapësirë memorizimi e mjaftueshme",
 "Invalid directory." => "Dosje e pavlefshme.",
 "Files" => "Skedarët",
+"Unable to upload your file as it is a directory or has 0 bytes" => "Nuk është i mundur ngarkimi i skedarit tuaj sepse është dosje ose ka dimension 0 byte",
+"Not enough space available" => "Nuk ka hapësirë memorizimi e mjaftueshme",
+"Upload cancelled." => "Ngarkimi u anulua.",
+"File upload is in progress. Leaving the page now will cancel the upload." => "Ngarkimi i skedarit është në vazhdim. Nqse ndërroni faqen tani ngarkimi do të anulohet.",
+"URL cannot be empty." => "URL-i nuk mund të jetë bosh.",
+"Error" => "Veprim i gabuar",
+"Share" => "Nda",
 "Delete permanently" => "Elimino përfundimisht",
 "Delete" => "Elimino",
 "Rename" => "Riemërto",
@@ -32,13 +39,7 @@
 "Your storage is full, files can not be updated or synced anymore!" => "Hapësira juaj e memorizimit është plot, nuk mund të ngarkoni apo sinkronizoni më skedarët.",
 "Your storage is almost full ({usedSpacePercent}%)" => "Hapësira juaj e memorizimit është gati plot ({usedSpacePercent}%)",
 "Your download is being prepared. This might take some time if the files are big." => "Shkarkimi juaj po përgatitet. Mund të duhet pak kohë nqse skedarët janë të mëdhenj.",
-"Unable to upload your file as it is a directory or has 0 bytes" => "Nuk është i mundur ngarkimi i skedarit tuaj sepse është dosje ose ka dimension 0 byte",
-"Not enough space available" => "Nuk ka hapësirë memorizimi e mjaftueshme",
-"Upload cancelled." => "Ngarkimi u anulua.",
-"File upload is in progress. Leaving the page now will cancel the upload." => "Ngarkimi i skedarit është në vazhdim. Nqse ndërroni faqen tani ngarkimi do të anulohet.",
-"URL cannot be empty." => "URL-i nuk mund të jetë bosh.",
 "Invalid folder name. Usage of 'Shared' is reserved by Owncloud" => "Emri i dosjes është i pavlefshëm. Përdorimi i \"Shared\" është i rezervuar nga Owncloud-i.",
-"Error" => "Veprim i gabuar",
 "Name" => "Emri",
 "Size" => "Dimensioni",
 "Modified" => "Modifikuar",
@@ -71,3 +72,4 @@
 "Current scanning" => "Analizimi aktual",
 "Upgrading filesystem cache..." => "Po përmirësoj memorjen e filesystem-it..."
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

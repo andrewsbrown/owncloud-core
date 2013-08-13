@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Sunday" => "星期日",
 "Monday" => "星期一",
 "Tuesday" => "星期二",
@@ -24,8 +25,8 @@
 "last month" => "前一月",
 "months ago" => "個月之前",
 "Cancel" => "取消",
-"No" => "No",
 "Yes" => "Yes",
+"No" => "No",
 "Ok" => "OK",
 "Error" => "錯誤",
 "Shared" => "已分享",
@@ -55,8 +56,6 @@
 "The update was successful. Redirecting you to ownCloud now." => "更新成功, 正",
 "Use the following link to reset your password: {link}" => "請用以下連結重設你的密碼: {link}",
 "You will receive a link to reset your password via Email." => "你將收到一封電郵",
-"Reset email send." => "重設密碼郵件已傳",
-"Request failed!" => "請求失敗",
 "Username" => "用戶名稱",
 "Request reset" => "重設",
 "Your password was reset" => "你的密碼已被重設",
@@ -88,3 +87,4 @@
 "next" => "下一步",
 "Updating ownCloud to version %s, this may take a while." => "ownCloud (ver. %s)更新中, 請耐心等侯"
 );
+$PLURAL_FORMS = "nplurals=1; plural=0;";

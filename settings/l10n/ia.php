@@ -1,9 +1,13 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "Language changed" => "Linguage cambiate",
 "Invalid request" => "Requesta invalide",
+"Error" => "Error",
 "Groups" => "Gruppos",
 "Delete" => "Deler",
 "__language_name__" => "Interlingua",
+"Log" => "Registro",
+"More" => "Plus",
 "Add your App" => "Adder tu application",
 "Select an App" => "Selectionar un app",
 "Update" => "Actualisar",
@@ -18,5 +22,7 @@
 "Language" => "Linguage",
 "Help translate" => "Adjuta a traducer",
 "Create" => "Crear",
-"Other" => "Altere"
+"Other" => "Altere",
+"Username" => "Nomine de usator"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

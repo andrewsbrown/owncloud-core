@@ -1,4 +1,5 @@
-<?php $TRANSLATIONS = array(
+<?php
+$TRANSLATIONS = array(
 "No file was uploaded. Unknown error" => "ஒரு கோப்பும் பதிவேற்றப்படவில்லை. அறியப்படாத வழு",
 "There is no error, the file uploaded with success" => "இங்கு வழு இல்லை, கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது",
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" => "பதிவேற்றப்பட்ட கோப்பானது HTML  படிவத்தில் குறிப்பிடப்பட்டுள்ள MAX_FILE_SIZE  directive ஐ விட கூடியது",
@@ -7,7 +8,13 @@
 "Missing a temporary folder" => "ஒரு தற்காலிகமான கோப்புறையை காணவில்லை",
 "Failed to write to disk" => "வட்டில் எழுத முடியவில்லை",
 "Files" => "கோப்புகள்",
-"Delete" => "அழிக்க",
+"Unable to upload your file as it is a directory or has 0 bytes" => "அடைவு அல்லது 0 bytes ஐ கொண்டுள்ளதால் உங்களுடைய கோப்பை பதிவேற்ற முடியவில்லை",
+"Upload cancelled." => "பதிவேற்றல் இரத்து செய்யப்பட்டுள்ளது",
+"File upload is in progress. Leaving the page now will cancel the upload." => "கோப்பு பதிவேற்றம் செயல்பாட்டில் உள்ளது. இந்தப் பக்கத்திலிருந்து வெறியேறுவதானது பதிவேற்றலை இரத்து செய்யும்.",
+"URL cannot be empty." => "URL  வெறுமையாக இருக்கமுடியாது.",
+"Error" => "வழு",
+"Share" => "பகிர்வு",
+"Delete" => "நீக்குக",
 "Rename" => "பெயர்மாற்றம்",
 "Pending" => "நிலுவையிலுள்ள",
 "{new_name} already exists" => "{new_name} ஏற்கனவே உள்ளது",
@@ -18,11 +25,6 @@
 "undo" => "முன் செயல் நீக்கம் ",
 "1 file uploading" => "1 கோப்பு பதிவேற்றப்படுகிறது",
 "Invalid name, '\\', '/', '<', '>', ':', '\"', '|', '?' and '*' are not allowed." => "செல்லுபடியற்ற பெயர்,'\\', '/', '<', '>', ':', '\"', '|', '?' மற்றும் '*' ஆகியன அனுமதிக்கப்படமாட்டாது.",
-"Unable to upload your file as it is a directory or has 0 bytes" => "அடைவு அல்லது 0 bytes ஐ கொண்டுள்ளதால் உங்களுடைய கோப்பை பதிவேற்ற முடியவில்லை",
-"Upload cancelled." => "பதிவேற்றல் இரத்து செய்யப்பட்டுள்ளது",
-"File upload is in progress. Leaving the page now will cancel the upload." => "கோப்பு பதிவேற்றம் செயல்பாட்டில் உள்ளது. இந்தப் பக்கத்திலிருந்து வெறியேறுவதானது பதிவேற்றலை இரத்து செய்யும்.",
-"URL cannot be empty." => "URL  வெறுமையாக இருக்கமுடியாது.",
-"Error" => "வழு",
 "Name" => "பெயர்",
 "Size" => "அளவு",
 "Modified" => "மாற்றப்பட்டது",
@@ -38,7 +40,7 @@
 "Enable ZIP-download" => "ZIP பதிவிறக்கலை இயலுமைப்படுத்துக",
 "0 is unlimited" => "0 ஆனது எல்லையற்றது",
 "Maximum input size for ZIP files" => "ZIP கோப்புகளுக்கான ஆகக்கூடிய உள்ளீட்டு அளவு",
-"Save" => "சேமிக்க",
+"Save" => "சேமிக்க ",
 "New" => "புதிய",
 "Text file" => "கோப்பு உரை",
 "Folder" => "கோப்புறை",
@@ -52,3 +54,4 @@
 "Files are being scanned, please wait." => "கோப்புகள் வருடப்படுகின்றன, தயவுசெய்து காத்திருங்கள்.",
 "Current scanning" => "தற்போது வருடப்படுபவை"
 );
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
